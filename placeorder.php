@@ -199,8 +199,7 @@
 							$s_charge = $s_charge1+$s_charge2;
 						}
 						
-						
-						if($delivery_state_id == 1 || $delivery_state_id == 'ODISHA' || $delivery_center1 == "Shree_Ganesh_Delivery_Center")
+						if($delivery_state_id == 1 || $delivery_state_id == 'ODISHA')
 						{
 							$ogst = $row2['tax'];
 							$cgst = $row2['cgst'];
